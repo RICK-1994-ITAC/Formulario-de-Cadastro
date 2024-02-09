@@ -1,0 +1,93 @@
+body{
+   color: white;
+    background-image: linear-gradient(to right,rgb(10, 8, 8),rgb(15, 48, 199));
+    font-family: Arial, Helvetica, sans-serif; 
+       
+}
+
+#box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+legend { 
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: linear-gradient(rgb(238, 238, 245),rgb(57, 56, 61));
+}
+
+fieldset {
+    border-radius: 10px;
+    border: 2px solid white;     
+}
+
+#tecnoint {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dadosusuario{
+    position: relative;        
+}
+
+.inputcad {
+    color: white;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    letter-spacing: 2px;  
+}
+
+.labelcad {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    pointer-events: none;
+   
+}
+
+.inputcad:focus ~ .labelcad,
+.inputcad:valid ~ .labelcad {
+    top: -20px;
+    font-size: 12px;
+    color: gray;
+}
+
+#submit{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    background-image: linear-gradient(to right,rgb(238, 238, 245), rgb(57, 56, 61));
+}
+
+#submit:hover{
+    background-image:linear-gradient(rgb(99, 99, 102),rgb(96, 93, 110));
+    font-size: 18px;
+    transition: .5s;
+    cursor: pointer;   
+}
+
+span{
+    position: relative;
+    left: 500px;
+    top: -20px;
+    
+}
+
+
+
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div id="box">
+        <form action="">
+            <fieldset>
+
+                <legend><strong>CADASTRO DE PROGRAMADORES</strong></legend>
+                <br><br>
+                <div class="dadosusuario">
+                   <input type="text" id="nome" class="inputcad" required>
+                   <label for="nome" class="labelcad">Nome completo:</label>
+                </div>
+                    <br><br>
+                    <div class="dadosusuario">
+                        <input type="text" id="cemail" class="inputcad" required>
+                        <label for="cemail" class="labelcad">Email:</label>
+                    </div>
+                        
+               
+              
+                <br>
+
+               <div id="nivel">
+
+                <p><strong>NÍVEL DE FORMAÇÃO:</strong></p>
+                
+                    <select name="" id="nivel" required>
+                        <option value="vazio" selected disabled>Selecionar Nível</option>
+                        <option value="Estagiario">Estagiário</option>
+                        <option value="Junior">Junior</option>
+                        <option value="Pleno">Pleno</option>
+                        <option value="Senior">Senior</option>
+                    </select>
+               </div>
+               <br>
+               <div id="tecno">
+                <P><strong>TECNOLOGIAS DOMINANTES:</strong></P>
+                <br>
+                <div id="tecnoint">
+                    <label for="formacao1">HTML</label>
+                    <input type="checkbox" id="formacao1" class="formacao">
+                    <br>
+                    <label for="formacao2">CSS</label>
+                    <input type="checkbox" id="formacao2" class="formacao">
+                    <br>
+                    <label for="formacao3">JAVASCRIPT</label>
+                    <input type="checkbox" id="formacao3" class="formacao">
+                    <br>
+                    <label for="formacao4">PHP</label>
+                    <input type="checkbox" id="formacao4" class="formacao">
+                    <br>
+                    <label for="formacao5">C#</label>
+                    <input type="checkbox" id="formacao5" class="formacao">
+                    <br>
+                    <label for="formacao6">JAVA</label>
+                    <input type="checkbox" id="formacao6" class="formacao">
+                    </div>
+                
+               </div>
+               <br>
+
+               <div id="inform">
+                    <p><strong>INFORMAÇÕES ADICIONAIS:</strong></p>
+                    
+                    <textarea name="informacoes" id="text" cols="40" rows="9"></textarea>
+               </div>
+               <br>
+
+               <input type="submit" value="Concluído" id="submit">
+
+        </form>
+    </fieldset>
+        <span>Copyright &copy; 2024 Henrique Lopes</span>
+    </div>
+    
+</body>
+</html>
