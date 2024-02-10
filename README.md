@@ -6,7 +6,7 @@ foi adicionado um campo de informações adicionais, para complemento das inform
 
 acesse o link em uma nova guia, para visualizar o formulário https://rick-1994-itac.github.io/Formulario-de-Cadastro/
 
-|***Tags html usadas***|     
+|`TAGS HTML ULTILIZADAS`|     
 |---|
 | < form >/< fieldset > |
 | < input text > |
@@ -16,11 +16,11 @@ acesse o link em uma nova guia, para visualizar o formulário https://rick-1994-
 | < span > |
 
 
- |***Css ultilizado***|
+ |`CSS ULTILIZADO`|
   |---|
   |Flexbox|
   |background-image: linear-gradient|
   |position: relative / absolute|
   |focus ~|
 
-  ***OBS: As tags ultilizadas foram as mais importantes, não sendo colocadas nesse Readme, todas as tags que foram usadas.***
+  ***OBS: As tags e estilos informados nas tabelas, foram os mais importantes, não sendo colocados nesse Readme, todas as tags e formatações que foram usadas na atividade.***
